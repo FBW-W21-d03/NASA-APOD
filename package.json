@@ -1,0 +1,19 @@
+{
+  "name": "nasa-apod",
+  "version": "1.0.0",
+  "description": "## Beschreibung Eine Webseite, die dem Nutzer folgende Weltraumdaten anzeigt. 1. Astronomy Picture of the Day 2. Beschreibung des Bildes 3. Copyright 4. Datum",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FBW-W21-d03/NASA-APOD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FBW-W21-d03/NASA-APOD/issues"
+  },
+  "homepage": "https://github.com/FBW-W21-d03/NASA-APOD#readme"
+}
