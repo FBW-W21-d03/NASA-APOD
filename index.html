@@ -5,6 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:ital@1&family=Lora:wght@500&display=swap" rel="stylesheet"> 
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/7ad11a1981.js" crossorigin="anonymous"></script>
     <title>NASA APOD</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -12,10 +18,15 @@
 <body>
     <h1>Astronomiebild des Tages</h1>
     <h2 id="title"></h2>
-    <img id="image" width="500">
-    <p id="beschreibung"></p>
-    <p id="copyright"></p>
+
+ <div class="container">
+     <img id="image" width="1200" alt>
+     <p id="beschreibung"></p>
+ </div>
+ 
     <p id="datum"></p>
+    <p id="copyright"></p>
+     
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="index.js"></script>
 </body>

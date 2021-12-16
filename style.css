@@ -1,0 +1,51 @@
+
+body {
+    font-family: 'Lora', serif;
+    font-size:1.1rem;
+    color:rgb(201, 198, 198);
+    background-image:url(image/giphy.gif);
+    background-repeat: no-repeat;
+    webkit-background-size: cover;
+    moz-background-size: cover;
+    o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+    margin-left: 1.5rem;
+    margin-bottom: 0;
+    font-size: 3rem;
+    font-weight:bolder;
+}
+#datum{
+    margin-left:1.5rem;
+}
+
+#title{
+    font-size: 2rem;
+    margin-left: 10px;
+    text-align: right;
+    margin-right: 10rem;
+    margin-bottom: 0;
+    
+}
+#image{
+    width: 1200vw;
+    height: 70vh;
+    border-radius:10px;
+    margin-bottom: 3rem;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+#beschreibung{
+    font-size:1.5rem;
+}
+#copyright {
+    margin-top: 0;
+    margin-left: 1rem;
+}
+
